@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta content="text/html; charset=utf-8" http-equiv="content-type">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
-        <title>Lineare Gleichungs 9 Grade</title>
+    <title>Lineare Gleichungs 9 Grade</title>
 
-        <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css">
-        <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
-        <link href="css/master.css" media="screen" rel="stylesheet" type="text/css">
-    </head>
+    <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/master.css" media="screen" rel="stylesheet" type="text/css">
+</head>
 
-    <body id="slickQuiz">
-        <h1 class="quizName"><!-- where the quiz name goes --></h1>
+<body>
 
-        <div class="quizArea">
-            <div class="quizHeader">
-                <!-- where the quiz main copy goes -->
+<div id="splashscreen">
+    <h2>Welcome !</h2>
+    Hast du zeit fur eine mathe test?
+    <img src="http://orig00.deviantart.net/f56d/f/2016/273/a/5/gremlin_mc_va_by_skyrade-dajcur5.png"/>
 
-                <a class="button startQuiz" href="#">Get Started!</a>
-            </div>
+    <a href="#" class="enter_link">Quiz machen!</a>
+</div>
+<div id="slickQuiz" style="display: none">
 
-            <!-- where the quiz gets built -->
+
+    <h1 class="quizName"><!-- where the quiz name goes --></h1>
+
+    <div class="quizArea">
+        <div class="quizHeader">
+            <!-- where the quiz main copy goes -->
+
+            <a class="button startQuiz" href="#">Get Started!</a>
         </div>
 
-        <div class="quizResults">
-            <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+        <!-- where the quiz gets built -->
+    </div>
 
-            <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+    <div class="quizResults">
+        <h3 class="quizScore">Du hast: <span><!-- where the quiz score goes --></span></h3>
 
-            <div class="quizResultsCopy">
-                <!-- where the quiz result copy goes -->
-            </div>
+        <h3 class="quizLevel"><strong>Rang:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+
+        <div class="quizResultsCopy">
+            <!-- where the quiz result copy goes -->
         </div>
+    </div>
+</div>
 
-        <script src="js/jquery.js"></script>
-        <script src="js/slickQuiz-config.js"></script>
-        <script src="js/slickQuiz.js"></script>
-        <script src="js/master.js"></script>
-    </body>
+<script src="js/jquery.js"></script>
+<script src="js/slickQuiz-config.js"></script>
+<script src="js/slickQuiz.js"></script>
+<script src="js/master.js"></script>
+</body>
 </html>

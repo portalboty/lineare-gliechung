@@ -1,5 +1,11 @@
 // Put all your page JS here
 
-$(function () {
-    $('#slickQuiz').slickQuiz();
+$(function (){
+    $('.enter_link').click(function() {
+        $('#slickQuiz').slickQuiz();
+        $('#splashscreen').hide();
+        $('#slickQuiz').show();
+
+    });
 });
+
