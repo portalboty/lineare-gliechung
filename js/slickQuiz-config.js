@@ -5,7 +5,7 @@
 var quizJSON = {
     "info": {
         "name":    "Lineare Gliechungen System 9 klasse Butzbach Stadtschule Quiz!!",
-        "main":    "<p>WELCOME</p>",
+        "main":    "<p>Willcomen</p>",
         "results": "<h5>Learn More</h5><p>Wie gefällt es Ihnen?</p>",
         "level1":  "Sehr gut",
         "level2":  "Gut",
