@@ -8,17 +8,31 @@
     <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/master.css" media="screen" rel="stylesheet" type="text/css">
+    <style>
+        div.graph {
+            background: url(img/12.jpg) no-repeat;
+            height: 349px;
+            margin-top: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        div.xy{
+            margin-top: 20px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css.css">
 </head>
 
 <body>
 
 <div id="splashscreen">
-    <h2>Willcomen!</h2>
+    <h2>Willkomen!</h2>
     Hast du zeit fur eine mathe test?
     <img src="http://orig00.deviantart.net/f56d/f/2016/273/a/5/gremlin_mc_va_by_skyrade-dajcur5.png"/>
 <center>
-    <br><a href="#" class="enter_link">Quiz machen!</a>
-</center>
+    <br><a href="#" class="enter_theory">Theory lesen.</a>
+    </center>
 </div>
 <div id="slickQuiz" style="display: none">
 
@@ -46,9 +60,45 @@
     </div>
 </div>
 
+<div class="theory" style="display: none">
+    <div class="title">
+        <h2>Title</h2>
+
+
+    </div>
+    <div class="formul">
+        y = <input type="text" id="a" placeholder="a" size="2"/> x + <input type="text" id="b" placeholder="b" size="2"/>
+
+    </div>
+    <div class="xy">
+        <table class="table">
+            <tr>
+                <td>x</td>
+                <td>0</td>
+                <td>1</td>
+                <td>-1</td>
+                <td>2</td>
+                <td>-2</td>
+            </tr>
+            <tr>
+                <td>y</td>
+                <td id="td22"></td>
+                <td id="td23"></td>
+                <td id="td24"></td>
+                <td id="td25"></td>
+                <td id="td26"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="graph">
+           </div><br><a href="#" class="enter_link">Quiz machen!</a>
+</div>
+
 <script src="js/jquery.js"></script>
 <script src="js/slickQuiz-config.js"></script>
 <script src="js/slickQuiz.js"></script>
 <script src="js/master.js"></script>
+<script type="text/javascript" src="js/jquery.line.js"></script>
 </body>
 </html>
